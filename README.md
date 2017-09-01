@@ -1,5 +1,5 @@
 # frontend-code-conventions
-Generic code conventions for html, css and javascript.
+Generic code conventions for html, css and javascript. Based in some cases on the Airbnb conventions.
 
 ## Table of Contents
 1. [HTML](#html)
@@ -36,6 +36,8 @@ Generic code conventions for html, css and javascript.
 
 ### ID Selectors
 * Id Selectos shouldn't be used as css selectors but can be use for other reasons. Use undersocres for word separation.
+
+**[back to top](#table-of-contents)**
 
 ## CSS
 
@@ -100,6 +102,7 @@ Generic code conventions for html, css and javascript.
 }
 ```
 
+**[back to top](#table-of-contents)**
 
 ## Sass
 
@@ -180,4 +183,5 @@ Generic code conventions for html, css and javascript.
 }
 ```
 
-## JavaScript
+**[back to top](#table-of-contents)**
+
