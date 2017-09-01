@@ -1,6 +1,24 @@
 # frontend-code-conventions
 Generic code conventions for html, css and javascript.
 
+## Table of Contents
+1. [HTML](#html)
+    - [Filenames](#filenames)
+    - [Formatting](#formatting)
+    - [ID Selectors](#id-selectors)
+1. [CSS](#css)
+    - [Formatting](#formatting)
+    - [Selectors](#selectors)
+    - [Comments](#comments)
+    - [Border](#border)
+1. [Sass](#sass)
+    - [Syntax](#syntax)
+    - [Filename](#filename)
+    - [Variables & Mixins](#variables-mixins)
+    - [Colours](#colours)
+    - [Ordering](#ordering-of-property-declarations)
+    - [Nested selectors](#nested-selectors)
+
 ## HTML
 
 ### Filenames
@@ -12,10 +30,12 @@ Generic code conventions for html, css and javascript.
 * Sibling elements with children should have a line serving as separator.
 * Use semantic html.
 * Line breaking when attributes make the line are too long
-- 1 soft tab indentation
-- html attributes first (id, class, type, name...)
-- angular attributes next (*, [], ())
+  - 1 soft tab indentation
+  - html attributes first (id, class, type, name...)
+  - angular attributes next (*, [], ())
 
+### ID Selctors
+* Id Selectos shouldn't be used as css selectors but can be use for other reasons. Use undersocres for word separation.
 
 ## CSS
 
