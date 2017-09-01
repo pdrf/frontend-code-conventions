@@ -3,25 +3,25 @@ Generic code conventions for html, css and javascript.
 
 ## Table of Contents
 1. [HTML](#html)
-    - [Filenames](#filenames)
+    - [Filename](#filename)
     - [Formatting](#formatting)
     - [ID Selectors](#id-selectors)
 1. [CSS](#css)
-    - [Formatting](#formatting)
+    - [Formatting](#formatting-1)
     - [Selectors](#selectors)
     - [Comments](#comments)
     - [Border](#border)
 1. [Sass](#sass)
     - [Syntax](#syntax)
-    - [Filename](#filename)
-    - [Variables & Mixins](#variables-mixins)
+    - [Filename](#filename-1)
+    - [Variables & Mixins](#variables--mixins)
     - [Colours](#colours)
     - [Ordering](#ordering-of-property-declarations)
     - [Nested selectors](#nested-selectors)
 
 ## HTML
 
-### Filenames
+### Filename
 * Component templates > `some-name.template.html`
 * Partials >  > `some-name.partial.html`
 * Other files > `some-name.html`
