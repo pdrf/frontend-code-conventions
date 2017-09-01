@@ -1,9 +1,20 @@
 # frontend-code-conventions
 Generic code conventions for html, css and javascript.
 
-
 ## HTML
 
+### Filenames
+* Component templates > `some-name.template.html`
+* Partials >  > `some-name.partial.html`
+* Other files > `some-name.html`
+
+### Formatting
+* Sibling elements with children should have a line serving as separator.
+* Use semantic html.
+* Line breaking when attributes make the line are too long
+** 1 soft tab indentation
+** html attributes first (id, class, type, name...)
+** angular attributes next (*, [], ())
 
 
 ## CSS
@@ -23,9 +34,6 @@ Generic code conventions for html, css and javascript.
     border:2px solid white; }
 .no, .nope, .not_good {
     // ...
-}
-#lol-no {
-  // ...
 }
 ```
 
@@ -47,13 +55,11 @@ Generic code conventions for html, css and javascript.
 
 ### Selectors
 * Use dashes in class selectors.
-* Do not use ID selectors and avoid element selectors, except on high level rules.
+* Do not use ID selectors.
+* Avoid element selectors, except for top level rules.
 
 ### Comments
 * Comments on their own line. Avoid end-of-line comments.
-
-### Colours
-* Always use variables for colours. Do not use colour variable directly, use a semantic variable instead.
 
 ### Border
 * Use `0` instead of `none` to specify that a style has no border.
@@ -74,11 +80,22 @@ Generic code conventions for html, css and javascript.
 }
 ```
 
+
 ## Sass
 
 ### Syntax
 * Use the `.scss` syntax, never the original `.sass` syntax
 * Order your regular CSS and `@include` declarations logically (see below)
+
+### Filename
+* For angular components use `some-name.style.scss`
+
+### Variables & Mixins
+* Use baseline size variables whenever possible (`$baseline = 10px`).
+* Use font-size mixin whenever possible.
+
+### Colours
+* Always use variables for colours. Do not use colour variable directly, use a semantic variable instead.
 
 ### Ordering of property declarations
 
