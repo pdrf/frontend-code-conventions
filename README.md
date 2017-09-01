@@ -34,7 +34,7 @@ Generic code conventions for html, css and javascript.
   - html attributes first (id, class, type, name...)
   - angular attributes next (*, [], ())
 
-### ID Selctors
+### ID Selectors
 * Id Selectos shouldn't be used as css selectors but can be use for other reasons. Use undersocres for word separation.
 
 ## CSS
