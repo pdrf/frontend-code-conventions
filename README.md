@@ -12,9 +12,9 @@ Generic code conventions for html, css and javascript.
 * Sibling elements with children should have a line serving as separator.
 * Use semantic html.
 * Line breaking when attributes make the line are too long
-** 1 soft tab indentation
-** html attributes first (id, class, type, name...)
-** angular attributes next (*, [], ())
+- 1 soft tab indentation
+- html attributes first (id, class, type, name...)
+- angular attributes next (*, [], ())
 
 
 ## CSS
